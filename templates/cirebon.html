@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Recognize</title>
+    <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='images/batikhug-logo.png')}}">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='styles/tourism.css')}}"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container justify-content-center">
+        <a class="navbar-brand fw-bolder" href="{{url_for('index')}}">
+          <img
+            src="{{url_for('static', filename='images/batikhug-logo.png')}}"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          BatikHug
+        </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Place Images -->
+    <div class="place museum">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col">
+            <div class="card">
+              <img src="{{url_for('static', filename='images/Kampung-Batik-Trusmi.jpg')}}" class="card-img-top" alt="...">
+              <div class="card-body p-4 mt-4">
+                <h5 class="card-title fw-bolder">Batik Trusmi Village</h5>
+                <p class="card-text"><small class="text-muted"><i class="fa-solid fa-location-dot"></i> Located in Cirebon, West Java</small></p>
+                <p class="card-text">
+                  Those of you who might have plans for a trip or vacation in Cirebon, will be incomplete if you don't buy products from Kampung Batik Trusmi.
+                  Similar to typical Jogja batik products that are usually sold at Beringharjo Market, these batik products have very distinctive batik motifs.
+                  <br><br>
+                  <b>The Attraction of Trusmi Batik Village</b><br>
+                  This batik center apparently does not only offer attractions that are related to the product and process of making batik. But it also has several other attractions. <br><br>
+                  <b>Facilities at Trusmi Batik Village</b><br>
+                  Because the location is in a village, of course the facilities available are also quite complete. For parking area facilities, for example, almost every showroom/shop has a parking area. The area of ​​the parking area in each store certainly varies.
+                  Mosques are also scattered at many points. You are free to choose the mosque building that you think is most comfortable.
+                  As for toilet facilities, usually most tourists use the toilets in shops or at the prayer room.
+                  Of course, you can find food stalls almost all the way in this batik village. <br><br>
+                  <b>Trusmi Batik Village Operational Hours</b><br>
+                  The Cirebon City batik center is open every day. Public holidays remain open with one hour longer operating hours. Monday to Friday, operating hours are from 08.00 to 20.00 WIB.
+                  On Saturdays, Sundays and national holidays, operating hours start from 08.00 to 21.00 WIB.
+                  Batik Trusmi has always been the main target for tourists who like batik.
+                  The quality is guaranteed to be good and also the price is relatively friendly on the wallet, making this batik center very busy every day.
+                  Tourists often stop by here after being satisfied with their vacation in Cirebon City. For those of you who are also Cirebon batik lovers, don't miss the opportunity to hunt for batik with Salsa Wisata.
+                  By using services such as the holiday packages that we offer, the shopping experience at this batik center will be even more memorable.
+                </p>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="text-white text-center fw-bolder">&copy; BatikHug. Smart Web Apps</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

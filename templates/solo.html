@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Recognize</title>
+    <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='images/batikhug-logo.png')}}">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='styles/tourism.css')}}"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container justify-content-center">
+        <a class="navbar-brand fw-bolder" href="{{url_for('index')}}">
+          <img
+            src="{{url_for('static', filename='images/batikhug-logo.png')}}"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          BatikHug
+        </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Place Images -->
+    <div class="place museum">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col">
+            <div class="card">
+              <img src="{{url_for('static', filename='images/Kampung-Batik-Kauman.jpg')}}" class="card-img-top" alt="...">
+              <div class="card-body p-4 mt-4">
+                <h5 class="card-title fw-bolder">Batik Kauman Village</h5>
+                <p class="card-text"><small class="text-muted"><i class="fa-solid fa-location-dot"></i> Located in Solo, Central Java</small></p>
+                <p class="card-text">
+                  The city of Solo has a unique charm as a tourist destination city in Central Java, Indonesia. Among other things, a village called Kauman which contains world-recognized heritage assets, namely batik. In Kauman Batik Village, not far from Klewer Market, there are productions of hand-drawn batik, stamped batik, and a combination of Solo-style (written and stamped) batik. This village is located in Kauman, Pasar Kliwon, Surakarta, Central Java.
+                  <br><br>
+                  The uniqueness offered in Kauman Batik Village is that visitors and batik sellers can interact and transact directly by visiting their batik industrial houses and seeing the batik production process and learning batik. The price starts from tens of thousands of rupiah to millions of rupiah. Apart from batik, this tourist village is also supported by various shops such as Muslim fashion shops, handicraft shops and bookstores.
+                  <br><br>
+                  If you are interested in getting around to Kauman Batik Village, you should walk or take a trishaw because the access roads in this village are narrow alleys. On foot you can enjoy old buildings with Javanese-Dutch architectural styles, joglo houses and pyramids. To reach the Kauman Batik Village, various means of transportation are available, including motorcycle taxis, pedicabs and taxis.
+                </p>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="text-white text-center fw-bolder">&copy; BatikHug. Smart Web Apps</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

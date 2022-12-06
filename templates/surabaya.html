@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Recognize</title>
+    <link rel="icon" type="image/x-icon" href="{{url_for('static', filename='images/batikhug-logo.png')}}">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='styles/tourism.css')}}"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container justify-content-center">
+        <a class="navbar-brand fw-bolder" href="{{url_for('index')}}">
+          <img
+            src="{{url_for('static', filename='images/batikhug-logo.png')}}"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          BatikHug
+        </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Place Images -->
+    <div class="place museum">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col">
+            <div class="card">
+              <img src="{{url_for('static', filename='images/Rumah-Batik.jpg')}}" class="card-img-top" alt="...">
+              <div class="card-body p-4 mt-4">
+                <h5 class="card-title fw-bolder">Batik House</h5>
+                <p class="card-text"><small class="text-muted"><i class="fa-solid fa-location-dot"></i> Located in Surabaya, East Java</small></p>
+                <p class="card-text">
+                  Batik House Tourism in Surabaya is one of the tourist attractions located on Jl. Dukuh Bulak Banteng Team. No.94, Kenjeran Village, Bulak Banteng District, Surabaya City, East Java, Indonesia. Batik House Tourism in Surabaya is a tourist spot that is busy with tourists on weekdays and holidays.
+
+                  This place is very beautiful and can give a different sensation to our daily activities. Batik House Tourism in Surabaya has a very interesting beauty to visit. It's a shame if you are in the city of Surabaya not visiting the Batik House tour in Surabaya, which has such a beauty that is second to none. Batik House Tourism in Surabaya is perfect for filling your holiday activities, especially during long holidays such as national holidays or other holidays. The beauty of this Batik House tour in Surabaya is very good for all of you who are near or in the distance to come closer to visit the Batik House tourist attractions in the city of Surabaya.
+                  <br><br>
+                  <b>Place Attractiveness</b><br>
+                  Batik House Tourism in Surabaya is a tourist spot that you must visit because the charm of its beauty is second to none. The local residents of the Batik House Tourism area in Surabaya are also very hospitable to local and foreign tourists. The city of Surabaya is also famous for its Batik House Tourism in Surabaya which is very interesting to visit. If you are traveling in Surabaya, stop by Rumah Batik. Rumah Batik has a diversity of ancestral heritage that has become an Indonesian icon. Batik is a very valuable traditional heritage and has become an identical icon from Indonesia. Each region has the characteristics of each batik and which symbolizes the characteristics of each ethnic group in Indonesia, which refers to diversity.
+                  <br>
+                  In this Surabaya batik house, there are collections of batik from seventeen districts which have their own varieties and patterns. The seventeen districts include Sumenep, Pamekasan, Sampang, Bangkalan, Surabaya, Sidoarjo, Lamongan, Tuban, Pasuruan, Malang, Batu, Jombang, Kediri, Pacitan, Banyuwangi, Jember and Tulungagung. There are more than 2000 pieces of batik cloth with different patterns and motifs.
+                </p>    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="text-white text-center fw-bolder">&copy; BatikHug. Smart Web Apps</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

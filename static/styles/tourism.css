@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+}
+
+/* Yogyakarta */
+.giriloyo {
+  background-color: #eff5f5;
+}
+
+.giriloyo img {
+  height: 550px;
+}
+
+.giriloyo h5 {
+  font-size: 28px;
+}
+
+.giriloyo p {
+  font-size: 20px;
+  font-weight: 700px;
+  line-height: 40px;
+}
+
+.giriloyo .card {
+  border: none;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+/* Pekalongan */
+.museum {
+  background-color: #eff5f5;
+}
+
+.museum img {
+  height: 550px;
+}
+
+.museum h5 {
+  font-size: 28px;
+}
+
+.museum p {
+  font-size: 20px;
+  font-weight: 700px;
+  line-height: 40px;
+}
+
+.museum .card {
+  border: none;
+}
