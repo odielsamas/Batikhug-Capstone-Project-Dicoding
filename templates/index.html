@@ -70,7 +70,7 @@
           which is the identity of Indonesians and the various types of motifs
           they have.
         </p>
-        <a href="#end" type="button" class="btn recognize mt-3"><i class="fa-solid fa-down-long me-2"></i> Recognize Batik</a>
+        <a href="#end" type="button" class="btn recognize mt-3"><i class="fa-solid fa-circle-down"></i> Recognize Batik</a>
       </div>
       <span id="end"></span>
     </header>
@@ -95,7 +95,7 @@
                 class="btn text-white"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModalUpload"
-                >Upload Image</a
+                ><i class="fa-solid fa-upload"></i> Upload Image</a
               >
             </div>
           </div>
@@ -243,7 +243,7 @@
             <div class="card text-bg-dark" data-aos="fade-right" data-aos-duration="2000">
               <img
                 src="{{url_for('static', filename='images/batik-tulis-giriloyo.png')}}"
-                class="card-img border-3 border-dark"
+                class="card-img border border-3 border-dark"
                 alt="..."
               />
               <div class="card-img-overlay m-3">
@@ -272,7 +272,7 @@
           </div>
           <div class="col-lg-4">
             <a href="{{url_for('surabaya')}}">
-            <div class="card text-bg-dark" data-aos="fade-up" data-aos-duration="2000" style="height: 400px">
+            <div class="card text-bg-dark surabaya" data-aos="fade-up" data-aos-duration="2000" style="height: 400px">
               <img
                 src="{{url_for('static', filename='images/rumah-batik-surabaya.png')}}"
                 class="card-img border border-3 border-dark"
@@ -291,7 +291,7 @@
           </div>
           <div class="col-lg-4">
             <a href="{{url_for('solo')}}">
-            <div class="card text-bg-dark" data-aos="fade-left" data-aos-duration="2000">
+            <div class="card text-bg-dark solo" data-aos="fade-left" data-aos-duration="2000">
               <img
                 src="{{url_for('static', filename='images/kampung-wisata-kauman.png')}}"
                 class="card-img border border-3 border-dark"

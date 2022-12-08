@@ -56,15 +56,16 @@ header .hero-text p {
 header .hero-text a {
   color: white;
   background-color: #d7a86e;
-  font-weight: bolder;
   padding: 8px 20px;
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: normal;
   border: 5px solid #d7a86e;
 }
 
 header .hero-text a:hover {
   border: 5px solid #f49b2e;
   color: #f49b2e;
+  font-weight: bolder;
   moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
@@ -283,5 +284,21 @@ footer p {
 
   #product h5 {
     font-size: 15px;
+  }
+
+  .product .card {
+    margin: 0 0.4em;
+  }
+
+  .popular-tourist .surabaya {
+    margin-top: 20px;
+  }
+
+  .popular-tourist .solo {
+    margin-top: 20px;
+  }
+
+  .popular-tourist .surabaya img {
+    height: 400px;
   }
 }
