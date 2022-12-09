@@ -186,6 +186,32 @@ header .hero-text a:hover {
   width: 20%;
 }
 
+.about a {
+  color: white;
+  background-color: #d7a86e;
+  padding: 8px 20px;
+  font-size: 18px;
+  font-weight: normal;
+  border: 5px solid #d7a86e;
+}
+
+.about a:hover {
+  border: 5px solid #f49b2e;
+  color: #f49b2e;
+  font-weight: bolder;
+  font-size: 18px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.about-body p {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 2em;
+}
+
 /* Popular Tourist Style */
 .popular-tourist {
   background-color: #282a3a;

@@ -84,7 +84,7 @@ def predict():
       elif classes_x == 3:
         name = "Batik Megamendung" + " ({:.0%})".format(max_value)
         origin = "Derived from the Cirebon"
-        filosifi = "The most well-known and iconic Cirebon batik motif is the Megamendung motif. This motif symbolizes the rain-carrying cloud as a symbol of fertility and life-giving. The history of this motif is related to the history of the arrival of the Chinese in Cirebon, namely Sunan Gunung Jati who married a Chinese woman named Ong Tie. This motif has very good color gradations with the coloring process being carried out more than three times."
+        filosifi = "History Motif Batik Megamendung: \n The most well-known and iconic Cirebon batik motif is the Megamendung motif. This motif symbolizes the rain-carrying cloud as a symbol of fertility and life-giving. The history of this motif is related to the history of the arrival of the Chinese in Cirebon, namely Sunan Gunung Jati who married a Chinese woman named Ong Tie. This motif has very good color gradations with the coloring process being carried out more than three times."
       elif classes_x == 4:
         name = "Batik Parang" + " ({:.0%})".format(max_value)
         origin = "Derived from the Solo"

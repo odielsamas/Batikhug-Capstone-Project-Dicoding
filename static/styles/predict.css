@@ -44,7 +44,7 @@ nav .btn:hover {
   font-weight: 500;
 }
 
-.content-result p {
+.content-result .history {
   padding: 30px;
   font-size: 22px;
   border-radius: 30px;

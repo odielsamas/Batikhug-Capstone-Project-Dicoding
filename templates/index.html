@@ -70,7 +70,7 @@
           which is the identity of Indonesians and the various types of motifs
           they have.
         </p>
-        <a href="#end" type="button" class="btn recognize mt-3"><i class="fa-solid fa-circle-down"></i> Recognize Batik</a>
+        <a href="#end" type="button" class="btn recognize mt-3 fw-bolder"><i class="fa-solid fa-circle-down me-1"></i> Recognize Batik</a>
       </div>
       <span id="end"></span>
     </header>
@@ -194,6 +194,54 @@
       </div>
     </div>
 
+    <!-- Modal About-->
+    <div class="container">
+      <div
+        class="modal fade"
+        id="exampleModalAbout"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bolder" id="exampleModalLabel">
+              Did you know that batik originates from Indonesia?
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body about-body">
+            <div class="mb-3">
+              <div class="card" style="width: 100%;">
+                <img src="{{url_for('static', filename='images/about-img.jpg')}}" class="card-img-top" alt="about" style="height: 300px;">
+                <div class="card-body">
+                  <p class="card-text">
+                    In 2009, batik has officially become Indonesian cultural heritage and has been designated by the United Nations Educational, Scientific, and Cultural Organization (UNESCO). It is only natural that batik is inaugurated as Indonesia's cultural heritage. Batik itself is a craft that has high artistic value and has been part of Indonesian culture for a long time. If previously batik was only intended for kings, now Indonesian batik has developed into a work that is almost certain to exist in all regions of Indonesia and of course can be used by all groups of people.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
     <!-- About -->
     <div class="container about" id="about">
       <div class="row">
@@ -217,6 +265,10 @@
             very deep philosophy. Batik is now a trend for various kinds of very
             beautiful products.
           </p>
+          <a href="#end" 
+          type="button" class="btn learn-more mt-3 fw-bolder" 
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModalAbout">Learn More <i class="fa-solid fa-right-long ms-1"></i></a>
         </div>
       </div>
     </div>
